@@ -19,11 +19,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Changing the text color */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Changes  */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,14 +32,13 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
-    list-style-type: none;
-}
-
 header div ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
+
+
 
 a {
     color: #ffffff;
@@ -49,6 +48,19 @@ a {
 p {
     font-size: 16px;
 }
+
+footer {
+    
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
 
 .hero {
     height: 800px;
@@ -173,28 +185,17 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
-}
+    font-size: 36px; */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
