@@ -1,38 +1,40 @@
+
+/* Sets the universal padding, margin, and box-sizing style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Sets background color for body */
 body {
     background-color: #d9dcd6;
 }
-
+/* Sets header padding, font styling, and background color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Sets header and h1 to inline-block display styling */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Changing the text color */
+/* Sets the text color */
 header h1 .seo {
     color: #d9dcd6;
 }
-/* Changes  */
-header div {
+/* Sets padding, right margin, float, and font styling  */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header div ul li {
+/* Sets the left margin, display style, list-style-typle */
+header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
